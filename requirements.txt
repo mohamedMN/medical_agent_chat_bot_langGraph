@@ -1,5 +1,4 @@
 langgraph
 python-dotenv
-cryptography
 requests
 groq

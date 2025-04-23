@@ -161,3 +161,12 @@
 2025-02-02 14:08:21,946 - INFO - Generating recommendations for symptoms: ['sore throat', 'mild fever', 'high blood sugar']
 2025-02-02 14:08:22,641 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-02-02 14:08:22,643 - INFO - Successfully generated recommendations
+2025-04-23 20:44:51,977 - INFO - Groq client initialized successfully
+2025-04-23 20:45:31,950 - INFO - Extracting symptoms from input: I've had chest pain that radiates to my left arm for the last hour...
+2025-04-23 20:45:33,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-23 20:45:33,172 - INFO - Successfully extracted symptoms: ['chest pain', 'pain in left arm']
+2025-04-23 20:45:33,173 - INFO - Analyzing symptoms: ['chest pain', 'pain in left arm']
+2025-04-23 20:45:33,173 - INFO - Analysis complete. Missing details: None
+2025-04-23 20:45:33,175 - INFO - Generating recommendations for symptoms: ['chest pain', 'pain in left arm']
+2025-04-23 20:45:33,981 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-23 20:45:33,983 - INFO - Successfully generated recommendations
