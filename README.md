@@ -16,7 +16,7 @@ I've had a sore throat and mild fever for two days, and my blood sugar has been 
 
 Architecture :
 
-![alt text](image.png)
+![alt text](image-1.png)
 
 main.py:
 
