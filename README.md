@@ -18,8 +18,7 @@ Architecture :
 
 ![alt text](image-1.png)
 
-![alt text](image-1.png)
-
+![alt text](image-2.png)
 main.py:
 
 The main entry point. responsible for: - Loading environment variables with python-dotenv - Initializing LangGraph - Running the chatbot loop (CLI or web)
@@ -35,4 +34,4 @@ medical_system.log: - a runtime log storing system messages, errors, or chat his
 
 ---
 
-![alt text](img/image.png)
+![alt text](image-3.png)
