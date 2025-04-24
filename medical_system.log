@@ -170,3 +170,13 @@
 2025-04-23 20:45:33,175 - INFO - Generating recommendations for symptoms: ['chest pain', 'pain in left arm']
 2025-04-23 20:45:33,981 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-23 20:45:33,983 - INFO - Successfully generated recommendations
+2025-04-24 09:25:43,194 - INFO - Groq client initialized successfully
+2025-04-24 09:28:08,504 - INFO - Extracting symptoms from input: I've had a sore throat and mild fever for two days, and my blood sugar has been higher than usual...
+2025-04-24 09:28:13,810 - INFO - Retrying request to /openai/v1/chat/completions in 0.468962 seconds
+2025-04-24 09:28:17,336 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 09:28:17,348 - INFO - Successfully extracted symptoms: ['sore throat', 'mild fever', 'high blood sugar']
+2025-04-24 09:28:17,350 - INFO - Analyzing symptoms: ['sore throat', 'mild fever', 'high blood sugar']
+2025-04-24 09:28:17,351 - INFO - Analysis complete. Missing details: None
+2025-04-24 09:28:17,353 - INFO - Generating recommendations for symptoms: ['sore throat', 'mild fever', 'high blood sugar']
+2025-04-24 09:28:18,048 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 09:28:18,050 - INFO - Successfully generated recommendations

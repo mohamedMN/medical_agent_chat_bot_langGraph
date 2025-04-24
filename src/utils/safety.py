@@ -1,7 +1,6 @@
 from typing import List, Dict, Optional
 import os
 from groq import Groq
-import json
 from dotenv import load_dotenv
 import logging
 import traceback
