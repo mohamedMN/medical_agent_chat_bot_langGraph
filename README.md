@@ -18,8 +18,34 @@ Architecture :
 
 ![alt text](image-1.png)
 
-![alt text](image-2.png)
-main.py:
+Architecture :
+📁 src/
+├── core/
+│ ├── conversation.py # Handles conversation logic (turn-taking, user input processing)
+│ ├── workflow.py # Orchestrates LangGraph workflows and graph execution
+│ └── **init**.py # Initializes core package
+│
+├── integrations/
+│ ├── emergency_services.py # API calls or logic related to external emergency services
+│ └── **init**.py # Integration-level initialization
+│
+├── knowledge_graph/
+│ ├── medical_knowledge.py # Domain-specific knowledge representation (e.g., symptoms, conditions)
+│ └── **init**.py
+│
+├── utils/
+│ ├── safety.py # Safety filters, moderation checks (e.g., OpenAI content filter)
+│ └── **init**.py
+│
+├── tests/ # Unit or integration test files (currently empty)
+
+first lance in commande line : to start the application
+
+python -m venv env
+pip install -r .\requirements.txt
+streamlit run .\app.py
+
+app.py:
 
 The main entry point. responsible for: - Loading environment variables with python-dotenv - Initializing LangGraph - Running the chatbot loop (CLI or web)
 

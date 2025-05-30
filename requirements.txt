@@ -2,3 +2,4 @@ langgraph
 python-dotenv
 requests
 groq
+streamlit

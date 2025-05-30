@@ -180,3 +180,37 @@
 2025-04-24 09:28:17,353 - INFO - Generating recommendations for symptoms: ['sore throat', 'mild fever', 'high blood sugar']
 2025-04-24 09:28:18,048 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-24 09:28:18,050 - INFO - Successfully generated recommendations
+2025-04-24 11:11:32,969 - INFO - Groq client initialized successfully
+2025-04-24 11:11:42,319 - INFO - Extracting symptoms from input: hello
+...
+2025-04-24 11:11:42,826 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 11:11:42,852 - INFO - Successfully extracted symptoms: ['There are no medical symptoms in the text "hello".']
+2025-04-24 11:11:42,861 - INFO - Analyzing symptoms: ['There are no medical symptoms in the text "hello".']
+2025-04-24 11:11:42,864 - INFO - Analysis complete. Missing details: None
+2025-04-24 11:11:42,870 - INFO - Generating recommendations for symptoms: ['There are no medical symptoms in the text "hello".']
+2025-04-24 11:11:43,746 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 11:11:43,749 - INFO - Successfully generated recommendations
+2025-04-24 11:12:17,427 - INFO - Extracting symptoms from input: You: I've had chest pain that radiates to my left arm for the last hour
+
+...
+2025-04-24 11:12:17,840 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 11:12:17,845 - INFO - Successfully extracted symptoms: ['chest pain', 'pain in left arm']
+2025-04-24 11:12:17,852 - INFO - Analyzing symptoms: ['chest pain', 'pain in left arm']
+2025-04-24 11:12:17,854 - INFO - Analysis complete. Missing details: None
+2025-04-24 11:12:17,861 - INFO - Generating recommendations for symptoms: ['chest pain', 'pain in left arm']
+2025-04-24 11:12:18,665 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-24 11:12:18,678 - INFO - Successfully generated recommendations
+2025-04-24 11:12:18,685 - WARNING - Emergency keywords detected in response
+2025-05-30 09:02:05,981 - INFO - Groq client initialized successfully
+2025-05-30 09:02:56,698 - INFO - Groq client initialized successfully
+2025-05-30 09:03:26,008 - INFO - Groq client initialized successfully
+2025-05-30 09:05:56,806 - INFO - Groq client initialized successfully
+2025-05-30 09:06:03,659 - INFO - Extracting symptoms from input: hello
+...
+2025-05-30 09:06:04,449 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 09:06:04,478 - INFO - Successfully extracted symptoms: ['There are no medical symptoms in the text "hello".']
+2025-05-30 09:06:04,513 - INFO - Analyzing symptoms: ['There are no medical symptoms in the text "hello".']
+2025-05-30 09:06:04,547 - INFO - Analysis complete. Missing details: None
+2025-05-30 09:06:04,553 - INFO - Generating recommendations for symptoms: ['There are no medical symptoms in the text "hello".']
+2025-05-30 09:06:05,390 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-30 09:06:05,396 - INFO - Successfully generated recommendations
